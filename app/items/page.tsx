@@ -1,6 +1,6 @@
+import InventoryList from '@/components/ui/InventoryList/InventoryList';
 import { createClient } from '@/utils/supabase/server';
 import { redirect } from 'next/navigation';
-import InventoryList from '@/components/InventoryList';
 
 export default async function InventoryPage() {
   const supabase = createClient();
