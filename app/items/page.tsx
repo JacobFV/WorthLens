@@ -28,7 +28,7 @@ export default async function InventoryPage() {
         <h1 className="text-4xl font-extrabold text-white sm:text-center sm:text-6xl">
           Inventory
         </h1>
-        <InventoryList items={scannedItems} />
+        <InventoryList items={scannedItems || []} />
       </div>
     </section>
   );
